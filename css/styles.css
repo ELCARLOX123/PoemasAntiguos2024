@@ -1,0 +1,145 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    flex-grow: 1;
+}
+
+a.a1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+b {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+a.a2 {
+    display: block;
+    padding: 1em;
+    border: 1px solid black;
+    background-color: #faf1cf;
+    text-align: center;
+    margin-right: 0.2em;
+    color: #000000;
+    text-decoration: none;
+}
+
+a.a2:hover {
+    background-color: rgb(78, 109, 245);
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(78, 109, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: auto;
+}
+
+em.em1 {
+    font-style: italic;
+    background-color: #faf1cf;
+    text-decoration: none;
+}
+
+header {
+    margin: 10px;
+    order: 1;
+}
+
+section {
+    margin: 10px;
+    background-color: #faf1cf;
+    width: auto;
+    height: auto;
+    align-items: center;
+    border: #000000;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    order: 2;
+    text-decoration: none;
+}
+
+article {
+    border: 4px solid rgb(0, 11, 114);
+    margin: 2%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+aside {
+    justify-content: center;
+    align-items: center;
+    background-color: #faf1cf;
+    border: 5px solid #000000;
+    margin: 10px;
+    margin-bottom: 170px;
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+}
+
+img.img2 {
+    justify-content: center;
+    align-items: center;
+    
+}
+
+aside a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+em.em2 {
+    font-style: italic;
+    font-size: x-large;
+}
+
+em.em3 {
+    font-style: italic;
+    font-size: large;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf1cf;
+    border: 5px solid #000000;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    order: 4;
+}

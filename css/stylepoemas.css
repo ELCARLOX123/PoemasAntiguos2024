@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: rgb(78, 109, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+article{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;   
+}
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+footer {
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf1cf;
+    border: 5px solid #000000;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    order: 4;
+}
